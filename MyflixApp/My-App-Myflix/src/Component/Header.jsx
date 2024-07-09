@@ -7,7 +7,7 @@ export default function Header() {
         <Slider/>
       </div>
       <section className="header-section">
-        <h1>Retrouvez le plus grand classement de chef d'oeuvre</h1>
+        <h1>Découvrez le plus grand classement des chefs-d'œuvre.</h1>
         <p>Explorez notre catalogue de films, séries et animes.</p>
         <button className="btn">Rechercher</button>
       </section>

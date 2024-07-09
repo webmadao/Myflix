@@ -1,0 +1,60 @@
+.mainHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    padding-inline: 20px;
+}
+
+.artworksList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artworksList .artworksImg{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.artworksList .artworksImg figure{
+    margin: 0;
+}
+
+.artworksImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid rgb(76, 71, 71);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.artworksImg img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+figcaption {
+    display: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.artworksImg:hover figcaption {
+    display: block;
+    background-color: #373636;
+    margin: 0;
+}
+
+.rating {
+    color: green;
+    font-size: 15px;
+    font-weight: bold;
+
+}

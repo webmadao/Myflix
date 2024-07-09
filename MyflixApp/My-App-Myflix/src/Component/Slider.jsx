@@ -30,6 +30,7 @@ export default function Slider() {
             >
                 {images.map((image, index) => (
                     <SplideSlide key={index}>
+
                         <img src={image} alt={`Artwork ${index + 1}`} className="slider-image" />
                     </SplideSlide>
                 ))}

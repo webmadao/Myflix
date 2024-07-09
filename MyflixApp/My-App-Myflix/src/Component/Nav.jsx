@@ -1,5 +1,5 @@
 import logomyflyx from "../Images/logomyflix.png"
-
+import Search from "./Search"
 import "./Nav.css"
 
 export default function () {
@@ -19,6 +19,7 @@ export default function () {
           <li>Movies</li>
           <li>Animes</li>
           <li>My List</li>
+          {/* <li> <Search/> </li> */}
         </ul>
         
         <button className="btn-mode" onClick={handeleChange}> ☀ </button>
